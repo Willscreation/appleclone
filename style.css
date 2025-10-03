@@ -1,0 +1,362 @@
+@font-face {
+    font-family: pop;
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: sp;
+    src: url(./sf-pro-display_semibold.woff2);
+}
+@font-face {
+    font-family: spr;
+    src: url(./sf-pro-text_regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position:fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+#nav h4{
+    font-family: 'spr';
+    font-size: 13px;
+    font-weight: 110;
+}
+
+.offer{
+    position: relative;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+.offer video{
+    position: absolute;
+    width: 100%;
+    height: 99vh;
+}
+.text{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 400px;
+    text-align: center;
+}
+.text h2{
+    color: black;
+    font-size: 55px;
+    font-family: 'sp';
+    font-weight: 500;
+    
+}
+.text h4{
+    color: black;
+    font-size:25px;
+    font-family: 'pop';
+    font-weight: 100;
+}
+
+.text button{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+    color: royalblue;
+    font-family: 'pop';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-top: 5px;
+}
+
+.pro{
+    height: 80vh;
+    background: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
+    background-size:cover;
+    background-position-y:center ;
+    color: white;
+    
+    text-align: center;
+}
+
+.head{
+    font-family: 'sp';
+    padding-top: 30px;
+    font-size: 65px;
+}
+.para{
+    font-family: 'spr';
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn1{
+        background-color:royalblue;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: 'pop';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-top: 5px;
+
+}
+.btn2{
+        background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+    color: royalblue;
+    font-family: 'pop';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-top: 5px;
+
+}
+.btn2:hover{
+    background-color:royalblue;
+    color: white;
+
+}
+.air{
+    height: 80vh;
+    background: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall.jpg);
+    background-size:cover;
+    background-position-y:center ;
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+}
+
+.main{
+    height: 70vh;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.leftpro{
+    width: 50%;
+    background: url(https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_medium.jpg);
+    margin: 10px;
+    text-align: center;
+    background-size:cover;
+    background-position-y:center ;
+    color: black;
+}
+.rightair{
+    width: 50%;
+    background: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-size:cover;
+    background-position-y:center ;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+
+.heads{
+    font-family: 'sp';
+    padding-top: 10px;
+    font-size: 40px;
+}
+.paras{
+    font-family: 'spr';
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.btnss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn1s{
+        background-color:royalblue;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: 'pop';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-top: 5px;
+
+}
+.btn2s{
+        background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+    color: royalblue;
+    font-family: 'pop';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-top: 5px;
+
+}
+.btn2s:hover{
+    background-color:royalblue;
+    color: white;
+
+}
+.leftwatch{
+    width: 50%;
+    background: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    margin: 10px;
+    text-align: center;
+    background-size:cover;
+    background-position-y:center ;
+    color: black;
+}
+.name{
+    margin-top: 10px;
+    height: 8%;
+}
+.rightwatchse{
+    width: 50%;
+    background: url(https://www.apple.com/in/home/images/promos/apple-watch-se-3/promo_apple_watch_se_3__fz5y29qx5mmy_medium.jpg);
+    background-size:cover;
+    background-position-y:center ;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+.leftultra{
+    width: 50%;
+    background: url(https://www.apple.com/in/home/images/promos/apple-watch-ultra-3/promo_apple_watch_ultra3__bwvslhbxx99e_medium.jpg);
+    margin: 10px;
+    text-align: center;
+    background-size:cover;
+    background-position-y:center ;
+    color: rgb(255, 255, 255);
+}
+
+.righttrade{
+    width: 50%;
+    background: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-size:cover;
+    background-position-y:center ;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+    height: 100vh;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.righttrade{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+.rightair{
+        width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+.rightwatchse{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+.leftpro{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+.leftultra{
+            width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+.leftwatch{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    margin: 1px;
+}
+#nav{
+    height: 7%;
+    gap: 10px;
+}
+.offer{
+    height: 40vh;
+}
+.offer video{
+    height: 40vh;
+}
+.text{
+    top: 220px;
+}
+.text h2{
+    font-size: 35px;
+    font-family: 'sp';
+    font-weight: 500;
+    
+}
+.text h4{
+    color: black;
+    font-size: 12px;
+}
+
+.text button{
+    font-size: 10px;
+    padding: 4px 15px;
+}
+
+.pro{
+    height: 50vh;
+    background-position: center;
+}
+
+.head{
+    padding-top: 25px;
+    font-size: 45px;
+}
+.para{
+    padding-top: 7px;
+    font-size: 25px;
+}
+
+.btn1{
+    font-size: 12px;
+}
+.btn2{
+    font-size: 12px;
+}
+.air{
+    height: 50vh;
+    background-position: center;
+}
+
+}
